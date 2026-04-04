@@ -35,9 +35,17 @@ El repositorio incluye dos scripts principales:
 * `yoloV8-Image.py`: Script para el entrenamiento inicial del modelo usando `data.yaml`.
 * `yoloV8-video.py`: Script para realizar inferencia en archivos de video, dibujando cajas delimitadoras para jugadores (azul) y balones (verde).
 
+## 🚀 Resultados y Predicciones
+
+Tras entrenar el modelo **YOLOv8s** durante 50 épocas, logramos una precisión del 91%. A continuación se muestra un ejemplo del modelo en acción:
+
+| Etiquetado original (Roboflow) | Predicción del modelo |
+| :---: | :---: |
+| <img src="assets/labeled.jpg" width="400"> | <img src="assets/predicted.jpg" width="400"> |
+
 ## 💡 Conclusiones
 El experimento demuestra que, aunque los modelos ligeros son rápidos, requieren datasets más diversos y grandes para tareas de alta precisión. YOLOv8s es la opción recomendada para este caso de uso deportivo.
 
 ---
-**Autor:** Antonio Jesús Angulo Magdaleno
-**Fecha:** Diciembre 2024 
+* **Autor:** Antonio Jesús Angulo Magdaleno
+* **Fecha:** Diciembre 2024 
