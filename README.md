@@ -7,15 +7,15 @@ El objetivo es implementar un sistema de detección en tiempo real útil para el
 
 ## 📊 Dataset
 Debido a la falta de datasets específicos, se creó uno propio utilizando:
-**Fuente:** Videos de YouTube.
-**Herramienta de etiquetado:** Roboflow.
-**Contenido:** 439 imágenes tras post-procesamiento.
-**Clases:** `Player` (Jugador) y `Ball` (Balón).
+* **Fuente:** Videos de YouTube.
+* **Herramienta de etiquetado:** Roboflow.
+* **Contenido:** 439 imágenes tras post-procesamiento. (https://universe.roboflow.com/antonyma/volleyball-video/dataset/2)
+* **Clases:** `Player` (Jugador) y `Ball` (Balón).
 
 ## ⚙️ Configuración del Entorno
-**Hardware:** Apple M2 (usando aceleración `mps`).
-**Software:** Python 3.9.20, Ultralytics 8.3.40, Torch 2.5.1.
-**Entorno:** Anaconda3.
+* **Hardware:** Apple M2 (usando aceleración `mps`).
+* **Software:** Python 3.9.20, Ultralytics 8.3.40, Torch 2.5.1.
+* **Entorno:** Anaconda3.
 
 ## 🚀 Entrenamiento y Resultados
 
