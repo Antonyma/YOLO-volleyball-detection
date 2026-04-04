@@ -1,1 +1,1 @@
-# yolov8-volleyball-detection
+# YOLOv8-volleyball-detection
