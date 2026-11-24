@@ -1,0 +1,6 @@
+# Ultralytics 8.3.40 -> 8.4.218 (versión estable consultada en noviembre de 2026).
+ultralytics>=8.4.218,<9
+opencv-python>=4.7.0
+
+# PyTorch se instala automáticamente. Para GPU, instala primero el build
+# adecuado desde https://pytorch.org/get-started/locally/

@@ -1,0 +1,12 @@
+# Copia este archivo como data.yaml y ajusta las rutas a tu dataset.
+# Las rutas relativas se interpretan desde la carpeta que contiene este YAML.
+path: ../data/volleyball
+
+train: images/train
+val: images/val
+# test: images/test
+
+# Comprueba el orden de clases con el data.yaml original de Roboflow.
+names:
+  0: Ball
+  1: Player

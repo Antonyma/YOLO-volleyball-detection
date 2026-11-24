@@ -1,0 +1,21 @@
+# Resultados del entrenamiento y Metadatos de Python
+runs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset y vídeos locales (no incluidos en el repositorio)
+data/*.yaml
+!data/data.yaml.example
+data/raw/
+data/images/
+videos/
+*.mp4
+*.avi
+*.mov
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
